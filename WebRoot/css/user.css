@@ -1,0 +1,35 @@
+.Cart{
+}
+.middle{
+	position: inherit;
+	padding: 25px 0 50px 0;
+	    margin-top: 50px;
+}
+.container-small{
+	box-shadow:  0 0 10px  #ccc;
+}
+
+.form-group .form-control:hover{
+	box-shadow:  0 0 10px  #8eb640;
+}
+.form-group label{
+	font-weight: 600;
+	font-size: 15px;
+}
+
+.container-small.form-group{
+	margin-right: 0;
+}
+.container-small{	
+	max-width: 80%;
+
+}
+.form-mytable{
+	position: relative;
+}
+.form-group-img{
+	position: absolute;
+	top: -120px;
+    left: -90px;
+}
+

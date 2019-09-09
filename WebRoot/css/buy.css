@@ -1,0 +1,110 @@
+.head {
+	margin-top: 50px;
+}
+.head.container{
+	margin: 0 auto;
+}
+.head p{
+	font-size: 18px;
+	font-weight: 600;
+}
+.detail-bg{
+	text-align: center;
+}
+.detail-bg p{
+	font-size: 20px;
+	font-weight: 100;
+}
+.detail-img{
+	display: inline-block;
+	position: relative;
+}
+.detail-img img{
+	width: 80%;
+	height: 80%;
+}
+.detail-form{
+	height: 200px;
+	width: 45%;
+	margin: 20px auto;
+}
+.col-md-7{
+	text-align: left; 
+}
+.col-md-5{
+	text-align: center;
+}
+.col_md_section p{
+	font-weight: 100;
+	font-size: 15px;
+	color: #000000;
+	text-indent:25px
+}
+.head .text-section h2{
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 32px;
+	color: #484848;
+	padding-bottom: 5px;
+	font-family: 'ITCAvantGardeStd';
+	padding-top: 20px;
+}
+.text-section h1{
+	text-align: center;
+}
+
+.form-horizontal button{
+	border-radius: 0 !important;
+}
+.buy_num{
+	margin-top: 20px;
+}
+.buy_num span{
+	margin-bottom: 0px;
+	font-weight: unset;
+	color: #9e9e9e;
+	float: left;
+    line-height: 40px;
+	padding-right: 10px;
+}
+.buy_num_fun{
+	width: 150px;
+	height: 40px;
+	overflow: hidden;
+	border:1px rgb(230,230,230) solid;
+	-moz-user-select: none;
+}
+.buy_num_fun div{
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+}
+.buy_add{
+	height: 40px;
+	width: 40px;
+	background-color: rgb(228,234,236);
+	cursor: pointer;
+	transition: 0.5s;
+}
+.buy_add:hover{
+	background-color: rgb(245,245,245);
+}
+.buy_num_value{
+	width: 70px;
+	background-color: transparent;
+	height: 42px;
+    text-align: center;
+	color: rgb(139, 69, 19);
+}
+.btn-info {
+    color: #fff;
+    margin-top: 20px;
+    outline: none;
+    border-style: none;
+    border-color: 0; 
+}
+
+.buyCar-img img{
+	width: 100px;
+}

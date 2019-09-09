@@ -1,0 +1,82 @@
+.bg_img{
+	width: 100%;
+	height: 320px;
+	background-color: #8eb640;
+	position: relative;
+}
+.middle{
+	padding-top: 25px ;
+	/*padding-bottom: 25px ;*/
+	position: absolute;
+	top: 0;
+	left: 30%;
+}
+.middle_title{
+	font-size: 24px;
+	text-align: center;
+}
+.middle .container-small:hover{
+	box-shadow:  0 0 10px  #ccc;
+}
+.middle .form-group{
+	margin-right: 0;
+}
+.middle .form-group .form-control{
+	border-radius: 2px solid #fff;
+	font-size: 14px;
+}
+.middle .form-group .form-control{
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	background-color: transparent;
+}
+.middle .form-group .form-control:hover{
+	box-shadow:  0 0 10px  #8eb640;
+}
+.middle .nav-pills a {
+	color: #337AB7;
+	text-decoration: none;
+	font-size: 18px;
+	transition: 0.3s all;
+}
+.middle .tab-content a{
+	margin-left: 5px;
+	text-decoration: none;
+}
+.middle .a-group{
+	text-align: right;
+}
+.middle .a-group a{
+	color: #8eb640;
+}
+.middle .a-group a:hover{
+	color: green;
+}
+.middle button{
+	height: 40px;
+	font-size: 18px;
+	transition: 0.35s all;
+	width: 100%;
+	color: #fff;
+	background-color: #8eb640;
+	border-color: #adadad;
+}
+.middle button:hover{
+	color: #fff;
+	background: green;
+}
+.container-small{
+	transition: 0.35s all;
+	padding: 30px 0;
+	max-width: 500px;
+	border:1px solid #adadad;
+}
+@media(max-width: 290px){
+	.middle{
+		padding-top: 25px ;
+		padding-bottom: 25px ;
+		position: absolute;
+		top: 0;
+		left: 5%;
+	}
+}

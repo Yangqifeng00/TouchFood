@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="TouchFood"
+  id="myeclipse.1562653632290"
+  context-root="/TouchFood"
+  j2ee-spec="5.0"
+  archive="TouchFood.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

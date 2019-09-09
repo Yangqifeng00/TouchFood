@@ -1,0 +1,134 @@
+.pb_middle{
+	width: 90%;
+	height: auto;
+	margin: 10px auto;
+}
+.pb_middle_left{
+	width: 20%;
+	height: auto;
+	float: left;
+	margin-top: 10px;
+	text-align: center;
+	box-shadow: 0 0 1px #000;
+	background-color: #fff;
+}
+.pb_middle_right{
+	width: 79%;
+	height: auto;
+	float: right;
+}
+.pb_tou{
+	width: 180px
+	height:200px;
+	margin: 20px auto;
+	text-align: center;
+	font-size: 15px;
+	font-weight: 600;
+}
+.pb_tou_imgDiv{
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	margin: 10px auto;
+	overflow: hidden;
+}
+.pb_tou_img{
+	height: 100%;
+	width: 100%;
+	opacity: 0.5;
+}
+.pb_tou span{
+	color: #4fa1e8;
+	cursor: pointer;
+}
+.pb_middle_left hr{
+	width: 90%;
+}
+.pb_info ul{
+	list-style: none;
+}
+.pb_info ul li{
+	text-align: center;
+}
+.pb_info ul li a.active{
+	background-color: #8B4513;
+    color: #fff;
+}
+.pb_info ul li a{
+	line-height: 40px;
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+.pb_info ul li:hover{
+	background-color:  #8B4513;
+}
+.pb_info ul li:hover a{
+	color:#fff;
+}
+.pn_info .active{
+	color: #4fa1e8;
+}
+.pb_middle_right .sale-section a{
+	margin:10px 10px;
+	width: 260px;
+	padding-top: 10px;
+	text-decoration: none;
+	transition: 0.3s ;
+	background-color: #fff;
+	border-radius: 5px;
+}
+.pb_middle_right .sale-section a:hover{
+
+	box-shadow: 0 0 10px #337ab7;
+	border-radius: 5px;
+}
+.pb_middle_right ul.nav-tabs {
+    margin-top: 20px;
+    background-color: white;
+}
+.pb_middle_right ul li a{
+	color: #000;
+	text-decoration: none;
+}
+.pb_rigth_tou_imgDiv{
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.pb_title{
+	width: 100%;
+	text-align: center;
+	font-family: '楷体';
+	font-size: 20px;
+	/*background-color: #fff;*/
+	color: #4fa1e8;
+	display: none;
+	min-width: 260px;
+}
+
+/*响应式布局*/
+@media(max-width: 1110px){
+	.pb_tou{
+		width: 150px
+		height:170px;
+	}
+	.pb_tou_imgDiv{
+		width: 150px;
+		height: 150px;
+	}
+}
+@media(max-width: 925px){
+	.pb_middle_left{
+		display: none;
+	}
+	.pb_title{
+		display: block;
+	}
+	.pb_middle_right{
+		/*clear: both;*/
+		width: 100%;
+		float: left;
+	}
+}

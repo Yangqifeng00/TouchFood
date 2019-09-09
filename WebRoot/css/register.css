@@ -1,0 +1,68 @@
+.middle{
+	padding: 25px 0 50px 0;
+	position: absolute;
+	top: 0;
+	left: 28%;
+}
+
+.container-small{
+	transition: 0.35s all;
+	padding: 30px 0;
+	max-width: 600px;
+	border:1px solid #adadad;
+}
+
+.line{
+	border-top:1px rgba(0,0,0,0.1) solid;
+	margin-top: 40px;
+}
+.line span{
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	top: -11px;
+	text-align: center;
+	background-color: #FFF;
+	width: 100px;
+	overflow: hidden;
+	color: #777;
+	font-size: 14px;
+	font-weight: 700;
+}
+.line{
+	position: relative;;
+	border-top: 1px rgba(0,0,0,0.1) solid;
+	margin-top: 40px;
+	width: 80%;
+	left: 15%;
+}
+.my_group{
+	margin-bottom: 25px;
+}
+@media(max-width: 898px){
+	.middle{
+		padding-top: 25px ;
+		padding-bottom: 25px ;
+		position: absolute;
+		top: 0;
+		left: 15%;
+	}
+}
+@media(max-width: 778px){
+	.middle{
+		padding-top: 25px ;
+		padding-bottom: 25px ;
+		position: absolute;
+		top: 0;
+		left: 30%;
+	}
+}
+@media(max-width: 290px){
+	.middle{
+		padding-top: 25px ;
+		padding-bottom: 25px ;
+		position: absolute;
+		top: 0;
+		left: 8%;
+	}
+}
